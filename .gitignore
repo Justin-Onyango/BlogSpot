@@ -172,3 +172,18 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Django static and media files
+staticfiles/
+media/
+
+# Django migrations (except __init__.py)
+**/migrations/*
+!**/migrations/__init__.py
+
+# Secret keys and environment variables
+*.env
+.env.example
+
+# Ignore compiled translations
+*.mo
